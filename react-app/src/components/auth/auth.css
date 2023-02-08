@@ -13,7 +13,9 @@
 }
 
 .blackblue {
-    color: blue;
+    /* color: blue; */
+    color: black;
+    font-weight: bold;
     background-color: white;
 }
 
@@ -92,6 +94,12 @@ cursor: pointer;
 
     background-color: white;
 }
+.signup_wrapper{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+
+}
 
 .no_account {
     margin-top: 65px;
@@ -118,6 +126,7 @@ cursor: pointer;
     background-repeat: no-repeat;
     background-size: 100%;
     background-color: white;
+    margin-right: 300px;
     /* display: flex; */
     /* flex-direction: column;
         justify-content: center;

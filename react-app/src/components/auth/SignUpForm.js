@@ -154,7 +154,7 @@ const SignUpForm = () => {
     // </div>
 
     <div className='justforwhite1'>
-      <div className='login_wrapper'>
+      <div className='signup_wrapper'>
         <div id='signup_background'></div>
         <div className='login_body'>
           <form className='login_context' onSubmit={onSignUp}>
@@ -236,7 +236,7 @@ const SignUpForm = () => {
           </form>
         </div>
       </div >
-      <div className='login_session2'></div>
+      {/* <div className='login_session2'></div> */}
     </div>
 
 
