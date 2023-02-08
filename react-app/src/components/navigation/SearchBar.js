@@ -46,6 +46,7 @@ const SearchBar = () => {
         <i id='search_icon' className="fa-solid fa-magnifying-glass"></i>
         <input
           name="search"
+          className='searchbox'
           type="text"
           placeholder="Search"
           value={wordEntered}

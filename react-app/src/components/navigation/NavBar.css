@@ -4,6 +4,7 @@
   justify-content: space-between;
   align-items: center;
   background-color: white;
+
 }
 
 .header__left {
@@ -55,6 +56,7 @@
 .header__logo {
   width: 40px;
   background-color: white;
+  margin: none;
 }
 
 .page__wrapper {
@@ -162,6 +164,7 @@
 .navbar__right {
   display: flex;
   align-items: center;
+  margin-right: 20px;
 }
 
 .navbar__left {
@@ -188,11 +191,12 @@
 }
 
 .dataResult {
-  width: 178px;
-  height: 50px;
+  width: 200px;
+
   background-color: lightgrey;
   /* box-shadow: white 0px 5px 15px; */
   border: white solid 1px;
+  border-top: none;
   border-radius: 5px;
   overflow: hidden;
   overflow-y: auto;
@@ -238,8 +242,13 @@
 }
 
 .search_wrapper {
-  position: absolute;
-  margin-top: -30px;
+
+}
+.searchbox{
+  border-radius: 4px;
+  width: 400px;
+  height: 34px;
+  box-shadow: none;
 }
 
 .home_page {
@@ -253,5 +262,12 @@
 
 #logo_black {
   background-color: black;
-  margin: 15px;
+  margin: 22px 15px 15px 15px;
+}
+.searchall{
+  position: absolute;
+  z-index: 1000;
+  left: 800px;
+
+
 }
