@@ -48,7 +48,7 @@ const SearchBar = () => {
           name="search"
           className='searchbox'
           type="text"
-          placeholder="Search"
+          placeholder=" Search"
           value={wordEntered}
           onChange={handleFilter}
         />

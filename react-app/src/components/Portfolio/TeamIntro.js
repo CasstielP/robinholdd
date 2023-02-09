@@ -23,14 +23,14 @@ function TeamIntro() {
 
         <div className="team-member-container">
           <div className="member-box">
-            <img className="house-crest" src={ravenclaw} />
+            <img className="house-crest" src={slytherin} />{" "}
             <div className="team-member-info">
-              <h3 className="tm-name">Christy Xiu</h3>
+              <h3 className="tm-name">Casstiel Pi</h3>
               <div className="info-icon">
-                <a href="https://github.com/christyx">
+                <a href="https://github.com/CasstielP">
                   <img className="social-icon" src={github} />
                 </a>
-                <a href="https://www.linkedin.com/in/zhaoyang-xiu/">
+                <a href="https://www.linkedin.com/in/casstiel-pi">
                   <img className="social-icon-li" src={linkedin} />
                 </a>
               </div>
@@ -39,12 +39,12 @@ function TeamIntro() {
           <div className="member-box">
             <img className="house-crest" src={ravenclaw} />
             <div className="team-member-info">
-              <h3 className="tm-name">Yifan Xin</h3>
+              <h3 className="tm-name">Christy Xiu</h3>
               <div className="info-icon">
-                <a href="https://github.com/iffy713">
+                <a href="https://github.com/christyx">
                   <img className="social-icon" src={github} />
                 </a>
-                <a href="https://www.linkedin.com/in/yifan-xin-657137153/">
+                <a href="https://www.linkedin.com/in/zhaoyang-xiu/">
                   <img className="social-icon-li" src={linkedin} />
                 </a>
               </div>
@@ -65,14 +65,14 @@ function TeamIntro() {
             </div>
           </div>
           <div className="member-box">
-            <img className="house-crest" src={slytherin} />{" "}
+            <img className="house-crest" src={ravenclaw} />
             <div className="team-member-info">
-              <h3 className="tm-name">Casstiel Pi</h3>
+              <h3 className="tm-name">Yifan Xin</h3>
               <div className="info-icon">
-                <a href="https://github.com/CasstielP">
+                <a href="https://github.com/iffy713">
                   <img className="social-icon" src={github} />
                 </a>
-                <a href="https://www.linkedin.com/in/casstiel-pi">
+                <a href="https://www.linkedin.com/in/yifan-xin-657137153/">
                   <img className="social-icon-li" src={linkedin} />
                 </a>
               </div>

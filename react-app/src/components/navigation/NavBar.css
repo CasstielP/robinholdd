@@ -5,6 +5,7 @@
   align-items: center;
   background-color: white;
 
+
 }
 
 .header__left {
@@ -240,7 +241,9 @@
 #search_icon {
   margin: 5px;
 }
-
+.searchInputs{
+  margin-right: 70px;
+}
 .search_wrapper {
 
 }
