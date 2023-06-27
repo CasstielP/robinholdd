@@ -54,7 +54,7 @@ const LoginForm = () => {
               </div>
               <label className='bblackfwhite' htmlFor='email'>Email</label>
               <div className='bblackfwhite'>
-                <input className='input_field'
+                <input className='input_field' id='lg_inputField'
                   name='email'
                   type='text'
                   placeholder='Email'
@@ -64,7 +64,7 @@ const LoginForm = () => {
               </div>
               <label className='bblackfwhite' htmlFor='password'>Password</label>
               <div className='bblackfwhite'>
-                <input className='input_field'
+                <input className='input_field' id='lg_inputField'
                   name='password'
                   type='password'
                   placeholder='Password'

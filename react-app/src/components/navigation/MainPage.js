@@ -11,20 +11,22 @@ const MainPage = () => {
 
   if (!user) {
     return (
-
-      <div className='body__wrapper'>
+      <>
+      <div className='mp_container'>
         <div className='body__session1'>
+          <div className='session1_container'>
           <h1 id='body__h1'>Run your money</h1>
           <h2 id='body__h2'>Invest with stocks, crypto, and cash</h2>
           <h2 id='body__h2'>on your terms.</h2>
           <NavLink className='body__button' id='body__button_0' to='/sign-up' exact={true} activeClassName='active'>
             Get Started
           </NavLink>
+          </div>
         </div>
-        <div className='body__session2'>
-
-        </div>
+        {/* <div className='body__session2'>
+        </div> */}
         <div className='body__session1' id='body__session3'>
+        <div className='session1_container'>
           <h1 id='body__h1-1'>Join a new generation</h1>
           <h1 id='body__h1-1'>of investors</h1>
 
@@ -32,8 +34,10 @@ const MainPage = () => {
             Sign up
           </NavLink>
         </div>
+        </div>
         {/* <div className='home_page'></div> */}
       </div>
+      </>
     )
   }
 
