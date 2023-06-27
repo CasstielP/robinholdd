@@ -94,6 +94,7 @@ cursor: pointer;
     align-items: start;
     /* padding: 50px 50px 50px 50px; */
     background-color: white;
+    margin-right: 400px;
 }
 
 .login_header {
@@ -103,9 +104,9 @@ cursor: pointer;
 
 .login_form {
     background-color: white;
-    margin-left: 70px;
-    margin-bottom: 300px;
-    margin-left: 200px;
+    /* margin-left: 70px; */
+    /* margin-bottom: 300px; */
+    /* margin-left: 200px; */
 
 }
 
@@ -122,6 +123,7 @@ cursor: pointer;
 .signup_wrapper{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     background-color: white;
 
 }
@@ -146,13 +148,13 @@ cursor: pointer;
 
 #signup_background {
     /* background-position: top; */
-    height: 913px;
+    height: 100vh;
     width: 600px;
     background-image: url('../images/robinhold_signup.jpg');
     background-repeat: no-repeat;
     background-size: 100%;
     background-color: white;
-    margin-right: 300px;
+    /* margin-right: 300px; */
     /* display: flex; */
     /* flex-direction: column;
         justify-content: center;
@@ -176,6 +178,9 @@ cursor: pointer;
     font-weight: bold;
 }
 
+#auth_header{
+    margin-top: 10px;
+}
 
 .login_session2 {
     background-color: white;

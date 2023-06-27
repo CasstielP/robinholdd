@@ -158,7 +158,7 @@ const SignUpForm = () => {
         <div id='signup_background'></div>
         <div className='login_body'>
           <form className='login_context' onSubmit={onSignUp}>
-            <div className='login_header'><strong className='bblackfwhite' id='auth_label'>Sign up to Robinhold</strong></div>
+            <div className='login_header' id='auth_header'><strong className='bblackfwhite' id='auth_label'>Sign up to Robinhold</strong></div>
 
             <div className='login_form'>
               <div className='error_message'>
