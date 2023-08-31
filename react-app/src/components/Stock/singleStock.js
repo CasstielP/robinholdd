@@ -7,8 +7,10 @@ import './singleStock.css'
 import Watchlists from '../Watchlist/allWatchlists';
 import AddToWatchlist from '../Watchlist/addToWatchlist';
 import TestingGraph from '../Portfolio/testingGraph'
+import LineGraph from '../Portfolio/LineGraph';
 import News from '../News/News';
 import TransactionContainer from '../transactions/createTransaction';
+import { Line } from 'react-chartjs-2';
 const SingleStock = () => {
     const dispatch = useDispatch();
     const { stockId } = useParams();
@@ -29,7 +31,9 @@ const SingleStock = () => {
                 <h2>{singleStock.name}</h2>
                 <h1>${singleStock.price}</h1>
                 <div className='stock-graph'>
+                    {/* <LineGraph totalHolding={1000} /> */}
                     <TestingGraph stockId={stockId} />
+
                 </div>
                 <h2 className='header_label'>About</h2>
                 <div className='stock_description'>

@@ -35,8 +35,9 @@ function TestingGraph({stockId}) {
   async function fetchLiveStock(timeSpan) {
     let dataArr = []
     const API_KEY = 'FZ0Z77IPDL0DZW40';
-    const API_KEY2 = 'VKXG6NIW2LT1ELQ8'
-    let API_Call = `https://www.alphavantage.co/query?function=TIME_SERIES_DAILY_ADJUSTED&symbol=${StockSymbol}&outputsize=full&apikey=${API_KEY2}`;
+    const API_KEY2 = 'YP52BIURK5YXFEVU'
+    let API_Call = `https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=${StockSymbol}&apikey=${API_KEY2}`;
+
     let limit;
     // console.log(timeSpan)
 
@@ -84,8 +85,9 @@ function TestingGraph({stockId}) {
             // dataArr.push({x: date, y: value2})
             counter++
           }
-          // console.log('-------graphdataBEFORE-----------',dataArr)
+          console.log('-------graphdataBEFORE-----------',dataArr)
           setGraphData(dataArr)
+
         }
       )
     // console.log('-------graphdataFS------------', graphData)
