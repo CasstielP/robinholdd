@@ -36,48 +36,6 @@ function TeamIntro() {
               </div>
             </div>
           </div>
-          <div className="member-box">
-            <img className="house-crest" src={ravenclaw} />
-            <div className="team-member-info">
-              <h3 className="tm-name">Christy Xiu</h3>
-              <div className="info-icon">
-                <a href="https://github.com/christyx">
-                  <img className="social-icon" src={github} />
-                </a>
-                <a href="https://www.linkedin.com/in/zhaoyang-xiu/">
-                  <img className="social-icon-li" src={linkedin} />
-                </a>
-              </div>
-            </div>
-          </div>
-          <div className="member-box">
-            <img className="house-crest" src={slytherin} />{" "}
-            <div className="team-member-info">
-              <h3 className="tm-name">David Chou</h3>
-              <div className="info-icon">
-                <a href="https://github.com/davidchou0112">
-                  <img className="social-icon" src={github} />
-                </a>
-                <a href="https://www.linkedin.com/in/david-chou-a47026249/">
-                  <img className="social-icon-li" src={linkedin} />
-                </a>
-              </div>
-            </div>
-          </div>
-          <div className="member-box">
-            <img className="house-crest" src={ravenclaw} />
-            <div className="team-member-info">
-              <h3 className="tm-name">Yifan Xin</h3>
-              <div className="info-icon">
-                <a href="https://github.com/iffy713">
-                  <img className="social-icon" src={github} />
-                </a>
-                <a href="https://www.linkedin.com/in/yifan-xin-657137153/">
-                  <img className="social-icon-li" src={linkedin} />
-                </a>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
     </>
